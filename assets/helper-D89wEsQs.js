@@ -1,0 +1,1 @@
+Array.from({length:24},(r,t)=>({id:String(t).padStart(2,"0"),label:String(t).padStart(2,"0")}));Array.from({length:60},(r,t)=>({id:String(t).padStart(2,"0"),label:String(t).padStart(2,"0")}));const n=r=>{const t=Number(r||0),a=Math.abs(t).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});return t<0?`(${a})`:a};export{n as f};
