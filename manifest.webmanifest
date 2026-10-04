@@ -1,0 +1,42 @@
+{
+  "id": "/",
+  "name": "AppraisalSuite",
+  "short_name": "AppraisalSuite",
+  "description": "Performance appraisal, supervisor review and staff performance management workspace.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4faf8",
+  "theme_color": "#2f9d50",
+  "orientation": "any",
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "/dashboard"
+    },
+    {
+      "name": "Appraisals",
+      "short_name": "Appraisals",
+      "url": "/appraisals"
+    }
+  ]
+}

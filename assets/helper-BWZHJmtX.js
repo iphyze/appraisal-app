@@ -1,0 +1,1 @@
+Array.from({length:24},(r,t)=>({id:String(t).padStart(2,"0"),label:String(t).padStart(2,"0")}));Array.from({length:60},(r,t)=>({id:String(t).padStart(2,"0"),label:String(t).padStart(2,"0")}));const i=r=>{const t=Number(r),a=Number.isFinite(t)?t:0,n=Math.abs(a).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});return a<0?`(${n})`:n};export{i as f};
